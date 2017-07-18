@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/abc_input_method_navigation_guard" android:state_activated="true" />
+    <item android:drawable="@color/accentColor" android:state_checked="true" />
+    <item android:state_pressed="true">
+        <ripple android:color="@color/accentColor" />
+    </item>
+    <item android:drawable="@color/background_material_light" />
+</selector>

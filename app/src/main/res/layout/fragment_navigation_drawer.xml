@@ -1,0 +1,38 @@
+<org.lucasr.dspec.DesignSpecFrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app.designSpec="@raw/spec">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:background="@drawable/custom_bg"
+    android:clickable="true"
+    tools:context="moveinn.par.thunderbolt.moveinn.NavigationDrawerFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/containerDrawerImage"
+        android:background="@drawable/draw2"
+
+        android:orientation="horizontal">
+
+
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/containerDrawerImage"
+        android:id="@+id/drawerList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mustard"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
+</org.lucasr.dspec.DesignSpecFrameLayout>

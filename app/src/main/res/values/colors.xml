@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primaryColorDark"> #00796b </color>
+    <color name="accentColor"> #2196f3 </color>
+    <color name="tabsScrollColor">#004D40</color>
+    <color name="colorHighlight">#b6b6b6</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#bfbcbc</color>
+    <color name="mustard">#ee9911</color>
+    <color name="colorBackground">#413e4f</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorTextHint">#51d8c7</color>
+
+
+</resources>
